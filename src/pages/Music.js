@@ -3,7 +3,8 @@ import React from 'react';
 
 function Music() {
 
-    const [winwidth, setWinWidth] = React.useState(window.innerWidth)
+    const [winwidth, setWinWidth] = React.useState(window.innerWidth);
+
     let align;
     React.useEffect(() => {
 

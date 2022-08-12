@@ -67,8 +67,8 @@ function Projects() {
                     When I have time outside of school and everything else I like to do, I like to make little code projects.
                     These projects are in addition to the assignments and projects I do as a part of my degree, the difference is
                     that these are projects attempt to provide a service of some sort that will be useful in someones daily life.
-                    All of my projects are available to view on GitHub. You can visit my GitHub by clicking on the card below the
-                    two project descriptions found to the right.
+                    This website itself is actually one of the projects I've done. All of my projects are available to view on GitHub.
+                    You can visit my GitHub by clicking on the card.
                 </p>
 
             </div>
@@ -101,8 +101,13 @@ function Projects() {
                         containing information about calendar events that is quite unreadable on it's own, and parses through all the
                         information in the file line by line. It then takes the important information from that line and converts it
                         into a format that is easily readable for humans. Once it has gone through the entire file it then prints out
-                        all the events in the file in chronological order. This project was done in both Python and C.
+                        all the events in the file in chronological order. Unfortunately, this project doesn't have a nice GUI as the
+                        one above does, it prints and functions exclusively in the command line. This project was done in both Python and C.
                     </p>
+                    <div className = 'imgContainer'>
+                        <img className = 'ProcessCalImg' src= {process.env.PUBLIC_URL + '/ProcessCALPY.jpg'} alt = 'Project in Python' />
+                        <img className = 'ProcessCalImg' src= {process.env.PUBLIC_URL + '/ProcessCALC.jpg'} alt = 'Project in C' />
+                    </div>
                 </div>
 
                 <div className = 'gitCard'>

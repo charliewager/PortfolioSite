@@ -165,3 +165,10 @@ body{
   border-radius: 1rem;
   margin: 0.5rem;
 }
+
+.ProcessCalImg{
+  object-fit: scale-down;
+  width: 250px;
+  border-radius: 1rem;
+  margin: 0.5rem;
+}
