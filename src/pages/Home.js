@@ -13,9 +13,12 @@ function Home() {
                     was first exposed to it. My interest in Software Engineering started in my first year at UVic, there was a
                     that I was required to take and about halfway through the course I realized that this is what I can see myself
                     doing as a career. While my degree has me staring at a computer screen most of the day I try and
-                    get outside and do something active as often as I can, I particularly enjoy skateboarding biking and skiing.
+                    get outside and do something active as often as I can, I particularly enjoy skateboarding, biking, and skiing.
                     These aren't my only hobbies and interests either, whenever I can find the inspiration and time I make music.
                 </p>
+            </div>
+            <div className = 'homeIMGcontainer'>
+                <img className = 'homeIMG' src = {process.env.PUBLIC_URL + '/homepage_portrait.JPG'} alt = 'This is me'/>
             </div>
         </div>
     );
